@@ -1,3 +1,14 @@
+<?php 
+    require_once './Models/Movie.php';
+
+    $movie1 = new Movie('Donnie Darko', '2001', 'drammatico', 'Jake Gyllenhaal, Seth Rogen, Patrick Swayze');
+    $movie2 = new Movie('Star Wars: Episodio III - La vendetta dei Sith', '2005', 'Fantascienza', 'Natalie Portman, Ewan McGregor, Hayden Christensen, Ian McDiarmin' );
+
+    
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -8,6 +19,12 @@
 </head>
 
 <body>
+    <?php 
+    var_dump($movie1);
+    var_dump($movie2);
     
+    echo $movie1->getTitle();
+    echo $movie2->getTitle();
+    ?>
 </body>
 </html>
