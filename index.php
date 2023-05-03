@@ -1,8 +1,8 @@
 <?php 
     require_once './Models/Movie.php';
 
-    $movie1 = new Movie('Donnie Darko', '2001', 'drammatico', 'Jake Gyllenhaal, Seth Rogen, Patrick Swayze');
-    $movie2 = new Movie('Star Wars: Episodio III - La vendetta dei Sith', '2005', 'Fantascienza', 'Natalie Portman, Ewan McGregor, Hayden Christensen, Ian McDiarmin' );
+    $movie1 = new Movie('Donnie Darko', '2001', ['drammatico','thriller'], ['Jake Gyllenhaal', 'Seth Rogen', 'Patrick Swayze']);
+    $movie2 = new Movie('Star Wars: Episodio III - La vendetta dei Sith', '2005', ['Fantascienza', 'Avventura'], ['Natalie Portman', 'Ewan McGregor', 'Hayden Christensen', 'Ian McDiarmin'] );
 
     
 ?>

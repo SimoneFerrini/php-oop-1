@@ -2,14 +2,14 @@
     class Movie{
         public $title;
         public $releaseYear;
-        public $genre;
-        public $actors;
+        public $genres = [];
+        public $actors = [];
 
 
-        function __construct(string $title, string $releaseYear, string $genre, string $actors){
+        function __construct(string $title, string $releaseYear, array $genres, array $actors){
             $this->title = $title;
             $this->releaseYear = $releaseYear;
-            $this->genre = $genre;
+            $this->genres = $genres;
             $this->actors = $actors;
         }
 
