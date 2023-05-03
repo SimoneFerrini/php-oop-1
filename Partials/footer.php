@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -10,11 +9,12 @@
 </head>
 
 <body>
-    <?php 
-        include './Partials/navbar.php';
-        include './Partials/main.php';
-        include './Partials/footer.php';
-    ?>
+    <div class="container">
+        <br>
+        <hr>
+        <br>
+        <span>@copyright Simone Ferrini</span>
+    </div>
     
 </body>
 </html>

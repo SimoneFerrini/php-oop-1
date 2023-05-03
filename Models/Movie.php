@@ -13,8 +13,12 @@
             $this->actors = $actors;
         }
 
-        public function getTitle(){
-            return $this->title;
+        public function getGenres($genres){
+            return implode(" , ", $genres);
+        }
+
+        public function getActors($actors){
+            return implode(" , ", $actors);
         }
     }
 ?>
